@@ -15,5 +15,7 @@ public interface ContactService {
 	public boolean updateContact(Contact c);
 	
 	public boolean deleteContact(int id);
+	
+	public String findByEmail(String email);
 
 }
